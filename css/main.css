@@ -1,0 +1,41 @@
+header{
+  font-size: 20px;
+  color: purple;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#filtro{
+  margin-bottom: 20px;
+  margin-left: 600px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+
+.imagenes{
+  margin-left: 250px;
+}
+
+.imagenes>img{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+}
+.none {
+  filter: none;
+}
+
+.gray {
+  filter: invert(100%);
+}
+
+.sepia {
+  filter: sepia(100%);
+}
+
+.colors{
+  filter: saturate(8);
+}
